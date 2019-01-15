@@ -1,6 +1,3 @@
-stages:
-  - b
-
 b:
  <<: *defaults
  stage: b
