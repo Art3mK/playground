@@ -1,3 +1,11 @@
+.defaults: &defaults
+  image: alpine:3.6
+  tags:
+    - shared
+
+stages:
+  - b
+
 b:
  <<: *defaults
  stage: b
