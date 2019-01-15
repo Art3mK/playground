@@ -1,0 +1,11 @@
+stages:
+  - b
+
+b:
+ <<: *defaults
+ stage: b
+ when: manual
+ allow_failure: false
+ script:
+   - echo b
+   - exit 0
